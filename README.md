@@ -50,38 +50,34 @@ in [Pair](https://github.com/DJankauskas/5D_genericTypes/blob/cc88d2cfa8600fa8f6
 
 - successful instantiation of an instance of such a class:
 ```
-your exemplifying line from the Pair example here
+Pair<Integer> lastPair = new Pair<>(bigger, smaller);
 ```
-in [class](URL)
+in [FibPair](https://github.com/DJankauskas/5D_genericTypes/blob/cdaf7b1cd087e49a33b52b57332591e30e23ef51/FibPair/FibPair.java#L33)
 
 
 - *un*successful instantiation of an instance of such a class,
-caught by the compiler:
-```
-your exemplifying line from the Pair example here
-```
-in [class](URL)
+caught by the compiler: (none found in codebase)
 
 
 - a variable that can hold a reference to an instance of the generic type
 in a class / type that is parameterized by a generic type:
 ```
-your exemplifying line from the Pair example here
+private T first;
 ```
-in [class](URL)
+in [Pair](https://github.com/DJankauskas/5D_genericTypes/blob/cc88d2cfa8600fa8f6870600e23af1a746caa94c/FibPair/Pair.java#L10)
 
 
 - the declaration of a method or constructor that accepts a parameter of a generic type:
 ```
-your exemplifying line from the Pair example here
+public boolean membersNull<T>(Pair<T> pair)
 ```
-in [class](URL)
+in (not found in this project, no examples of this pattern)
 
 
 - the declaration of a method that returns a value of a generic type:
 ```
-your exemplifying line from the Pair example here
+public <T> T identity(T val) { return val; }
 ```
-in [class](URL)
+in (not in repo)
 
 
